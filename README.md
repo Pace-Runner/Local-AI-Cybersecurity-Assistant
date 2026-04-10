@@ -237,7 +237,3 @@ type pentest
 ```bash
 pentest
 ```
-
-That's it. The alias handles the host, model, flags, and system prompt automatically.
-
----
