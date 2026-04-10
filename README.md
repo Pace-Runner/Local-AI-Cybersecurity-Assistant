@@ -1,5 +1,5 @@
 # 🛡️ Local AI Cybersecurity Assistant
-### WSL2 · Ollama · Open Interpreter · GTX 1660 Ti
+### WSL2 · Ollama · Open Interpreter
 
 A fully local, privacy-first AI-powered cybersecurity workstation. All inference runs on-device — no API keys, no cloud, no data leaving the machine. Built for penetration testing, CTF challenges, network reconnaissance, and security engineering workflows.
 
