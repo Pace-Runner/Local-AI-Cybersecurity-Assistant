@@ -32,15 +32,6 @@ Windows Host (Pace-Runner14)
         └── Security system prompt (auto-loaded via alias)
 ```
 
-### Network Layout
-
-```
-Home Network (192.168.x.0/24)
-└── Windows Host
-    └── WSL2 Virtual Network (172.24.224.0/20)
-        └── This machine — 172.24.231.216
-```
-
 > WSL2 runs in an isolated virtual subnet. Scanning from inside WSL targets the `172.24.x.x` range only. To reach the real home network, scan from Windows or pivot through the Windows host at `172.24.224.1`.
 
 ---
